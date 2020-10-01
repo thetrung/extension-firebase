@@ -6,12 +6,12 @@ The extension can be used on all platforms because it use only `http.request` fu
 
 ### Notes
 
-**- To test on firebase request**
+**1. To test on firebase request**
 
       curl 'https://PROJECT_ID.firebaseio.com/users/uid/data.json?auth=AUTH_TOKEN'
 
 
-**- Note from Google OAuth**
+**2. Note from Google OAuth**
 
       Once you have a service account key file, 
       you can use one of the Google API client libraries 
@@ -21,7 +21,7 @@ The extension can be used on all platforms because it use only `http.request` fu
           https://www.googleapis.com/auth/firebase.database
 
 
-**- Actual step of what this extension doing**
+**3. Actual step of what this extension doing**
 
       :: Process of Firebase Secured Access with Google OAuth v2: 
 
